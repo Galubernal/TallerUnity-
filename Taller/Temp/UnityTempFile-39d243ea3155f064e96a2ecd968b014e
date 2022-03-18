@@ -314,7 +314,7 @@
 /define:UNITY_STANDALONE_WIN
 /define:UNITY_TEAM_LICENSE
 /define:USE_SEARCH_ENGINE_API
-Assets\Script\ActivarTrampa.cs
+Assets\Script\ActivateTrampa.cs
 Assets\Script\Bala.cs
 Assets\Script\ControlCharacter.cs
 Assets\Script\Rock.cs

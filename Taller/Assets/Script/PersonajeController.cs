@@ -8,7 +8,7 @@ public class PersonajeController : MonoBehaviour {
 	public GameObject bala;
 	// Use this for initialization
 	void Start () {
-		transform.position = new Vector3 (-3.452276F, 0.1900001F, -3.704882F);
+		transform.position = new Vector3 (-3.452276F, -0.05F, -3.704882F);
 	}
 	
 	// Update is called once per frame
@@ -33,7 +33,7 @@ public class PersonajeController : MonoBehaviour {
 			transform.eulerAngles -= new Vector3(0,velocidad*Time.deltaTime,0);
 		}
 		//Cuando presione la tecla A hago un turbo
-		if(Input.GetKeyDown(KeyCode.A)){
+		if(Input.GetKeyDown(KeyCode.A)) {
 			transform.position += Vector3.forward *velocidad * Time.deltaTime;
 		}
         //Cuando presione La tecla space hago un disparo
